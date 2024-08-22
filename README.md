@@ -1,2 +1,2 @@
 # gfg_potd
-Problem of the Day from GeeksForGeeks
+Problem of the Day and other problems from GeeksForGeeks
