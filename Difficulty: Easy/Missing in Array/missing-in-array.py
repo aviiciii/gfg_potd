@@ -4,9 +4,12 @@ class Solution:
     # Note that the size of the array is n-1
     def missingNumber(self, n, arr):
         arr.sort()
-        for i, ele in enumerate(arr):
-            if arr[i] != i +1:
-                return i+1
+        for i in range(0,n):
+            try:
+                if i+1 != arr[i]:
+                    return i+1
+            except:
+                return n
         return n
         
         # code here
