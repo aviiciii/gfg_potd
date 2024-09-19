@@ -5,12 +5,13 @@ class Solution:
     #Function to reverse words in a given string.
     def reverseWords(self,S):
         # code here 
+        # code here 
         strings = S.split('.')
         res = ""
         for i in range(len(strings)-1, -1, -1):
             res += strings[i] + "."
         return res.rstrip('.')
-        
+
 
 #{ 
  # Driver Code Starts
